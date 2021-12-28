@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <script>
+        var a,b,c;
+        a = 10;
+        b = 20;
+        c = 30;
+        maxValue = a;
+        if(maxValue<b){
+            maxValue = b
+        }
+        if(maxValue<c){
+            maxValue = c
+        }
+        document.write("10,20,30三个数中最大值为" + maxValue);
+        document.write(a+"," + b+ "," + c+ "三个数的最大值为" +maxValue);
+
+
+        var number1,number2,number3,number4;
+        number1 = 9;
+        number2 = 6;
+        number3 = 5;
+        number4 = 10;
+        var mixValue = number1;
+        if(mixValue>number2){
+            mixValue = number2;
+        }
+        console.log(mixValue);
+        if(mixValue>number3){
+            mixValue = number3;
+        }
+        console.log(mixValue);
+        if(mixValue>number4){
+            mixValue = number4;
+        }
+        console.log(mixValue);
+        alert("9,6,5,10这四个数最小值是" + mixValue);
+
+        var grade = "";
+        var score = 85;
+        if(score >= 90){
+            grade = "优秀";
+        }else if(score >= 75){
+            grade = "良好";
+        }else if(score >= 60){
+            grade = "及格";
+        }else {
+            grade = "不及格";
+        }
+        alert("周星星的考试成绩为" + grade);
+
+        var temper = 39.6;
+        var result = "";
+        if(temper > 37.5){
+            result = "体温偏高"
+        }else if(temper >= 36.5){
+            result = "体温正常";
+        }else{
+            result = "体温偏低";
+        }
+        alert("您的体温" + result);
+        
+
+
+
+    </script>
+    
+</body>
+</html>
